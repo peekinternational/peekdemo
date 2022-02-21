@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.455" height="16" viewBox="0 0 21.455 16">
+  <g id="Camera" transform="translate(-1.5 -8.5)">
+    <path id="layer2" d="M21.432,11.727H17.2L14.955,9H9.5L7.25,11.727H3.023A1.023,1.023,0,0,0,2,12.75V22.977A1.023,1.023,0,0,0,3.023,24H21.432a1.023,1.023,0,0,0,1.023-1.023V12.75a1.023,1.023,0,0,0-1.023-1.023Z" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer1" cx="4.773" cy="4.773" r="4.773" transform="translate(7.455 12.409)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer1-2" data-name="layer1" cx="0.341" cy="0.341" r="0.341" transform="translate(19.386 14.114)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer1-3" data-name="layer1" cx="2.045" cy="2.045" r="2.045" transform="translate(10.182 15.136)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

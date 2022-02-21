@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
+  <g id="Files" transform="translate(-2 -1)">
+    <path id="Path_32" data-name="Path 32" d="M4,1H9V2H4A1,1,0,0,0,3,3V13a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V6h1v7a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V3A2,2,0,0,1,4,1Z"/>
+    <path id="Path_33" data-name="Path 33" d="M9,4.5V1l5,5H10.5A1.5,1.5,0,0,1,9,4.5Z"/>
+    <path id="Path_34" data-name="Path 34" d="M5,11.5a.5.5,0,0,1,.5-.5h2a.5.5,0,0,1,0,1h-2A.5.5,0,0,1,5,11.5Zm0-2A.5.5,0,0,1,5.5,9h5a.5.5,0,0,1,0,1h-5A.5.5,0,0,1,5,9.5Zm0-2A.5.5,0,0,1,5.5,7h5a.5.5,0,0,1,0,1h-5A.5.5,0,0,1,5,7.5Z" fill-rule="evenodd"/>
+  </g>
+</svg>

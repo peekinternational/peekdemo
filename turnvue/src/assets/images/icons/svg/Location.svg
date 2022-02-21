@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.667" height="21" viewBox="0 0 19.667 21">
+  <g id="Location" transform="translate(-3.5 -1.5)">
+    <path id="layer2" d="M15.333,46.2c4.2.267,7.333,1.333,7.333,2.6s-4.167,2.667-9.333,2.667S4,50.267,4,48.8s3.133-2.333,7.333-2.6" transform="translate(0 -29.467)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M19.933,2A6.033,6.033,0,0,0,13.9,8.033c0,5.433,6.033,10.767,6.033,10.767s6.033-5.333,6.033-10.767A6.033,6.033,0,0,0,19.933,2Z" transform="translate(-6.6)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer1-2" data-name="layer1" cx="2" cy="2" r="2" transform="translate(11.333 6)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

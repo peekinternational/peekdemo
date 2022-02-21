@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.364" height="16" viewBox="0 0 17.364 16">
+  <g id="ChatIcon" transform="translate(-1.5 -4.5)">
+    <path id="layer2" d="M2.545,20l5.4-2.155a10.118,10.118,0,0,0,2.236.245c4.527,0,8.182-2.918,8.182-6.545S14.709,5,10.182,5,2,7.918,2,11.545a6.018,6.018,0,0,0,2.482,4.691Z" fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="layer1" d="M18,19h7.636M18,21.727h7.636M18,24.455h4.364" transform="translate(-11.636 -10.182)" fill="none" stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

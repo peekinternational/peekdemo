@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.999" height="18" viewBox="0 0 17.999 18">
+  <g id="Invite" transform="translate(-1.5 -1.495)">
+    <path id="layer2" d="M11.463,22.165h-8.9A.567.567,0,0,1,2,21.6V8.567A.567.567,0,0,1,2.567,8h2.8m5.695,0H13.9a.567.567,0,0,1,.567.567v5.666" transform="translate(0 -4.304)" fill="none" stroke="#2c3550" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer2-2" data-name="layer2" d="M16.233,3.13h-.878a1.417,1.417,0,0,0-2.776,0H11.7a.567.567,0,0,0-.567.567V5.4H16.8V3.7A.567.567,0,0,0,16.233,3.13Zm1.7,7.394V5.4H16.8m-5.666,0H10V15.6h5.808M12.266,7.663h3.4m-3.4,2.833h3.4m-3.4,2.833h3.4" transform="translate(-5.734 0)" fill="none" stroke="#2c3550" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer1" cx="4.533" cy="4.533" r="4.533" transform="translate(9.933 9.929)" fill="none" stroke="#2c3550" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1-2" data-name="layer1" d="M40.266,38v4.533M38,40.266h4.533" transform="translate(-25.801 -25.804)" fill="none" stroke="#2c3550" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

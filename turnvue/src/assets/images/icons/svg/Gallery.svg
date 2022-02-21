@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.75" height="16" viewBox="0 0 19.75 16">
+  <g id="Gallery" transform="translate(-1.5 -8.5)">
+    <circle id="layer2" cx="1.25" cy="1.25" r="1.25" transform="translate(6.375 13.375)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer2-2" data-name="layer2" d="M14,35.25c0-.656,1.563-3.75,3.125-3.75s1.25,1.25,1.875,1.25S19.781,29,21.5,29s3.75,5.719,3.75,6.25Z" transform="translate(-8.25 -13.75)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M2,23.375A.625.625,0,0,0,2.625,24h17.5a.625.625,0,0,0,.625-.625v-12.5H8.875V9H2Z" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

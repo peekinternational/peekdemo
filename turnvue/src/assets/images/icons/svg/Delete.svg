@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="Delete" transform="translate(-4 -1.5)">
+    <path id="layer2" d="M16.5,4.5V15H5.5V4.5M4,4.5H18M8,4.5V2h6V4.5" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M24.5,22v5.5M22,22v5.5M27,22v5.5" transform="translate(-13.5 -15)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

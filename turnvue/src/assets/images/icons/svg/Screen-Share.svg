@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Screen-Share" transform="translate(-1.5 -1.5)">
+    <path id="layer2" d="M9.5,48v3.5m-4,0h8m-9,0h-1m-.75,0H2m15,0h-.75m-.75,0h-1" transform="translate(0 -34.5)" fill="none" stroke="#2c3550" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M15,5V3H6.5V2H2V12.75a.75.75,0,0,0,.75.75h13.5a.75.75,0,0,0,.75-.75V5H4v7.75a.75.75,0,0,1-.75.75" fill="none" stroke="#2c3550" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

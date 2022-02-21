@@ -1,0 +1,95 @@
+{
+  "name": "Chatto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
+    "@kevinfaguiar/vue-twemoji-picker": "^5.7.4",
+    "@mycure/vue-jitsi-meet": "0.0.7",
+    "@popperjs/core": "^2.10.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.6.0",
+    "ckeditor": "^4.12.1",
+    "core-js": "^3.18.3",
+    "core-util-is": "^1.0.3",
+    "dropzone": "^5.9.3",
+    "express": "^4.17.1",
+    "feather-icons": "^4.28.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "owl.carousel": "^2.3.4",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "redis": "^3.1.2",
+    "rijs": "^0.9.1",
+    "rijs.npm": "^2.0.0",
+    "simple-modal-vue": "^1.0.12",
+    "socket.io": "^2.4.1",
+    "socket.io-client": "^2.4.0",
+    "switchery": "github:abpetkov/switchery",
+    "tippy.js": "^6.3.2",
+    "v-emoji-picker": "^2.3.3",
+    "v-offline": "^1.3.0",
+    "vee-validate": "^2.0.3",
+    "vue": "^2.6.14",
+    "vue-audio-recorder": "^3.0.1",
+    "vue-clipboard2": "^0.3.3",
+    "vue-content-loader": "^0.2.3",
+    "vue-feather-icons": "^5.1.0",
+    "vue-full-screen-file-drop": "^2.0.0",
+    "vue-i18n": "^8.26.5",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-input-tag": "^2.0.7",
+    "vue-js-toggle-button": "^1.3.3",
+    "vue-loading-overlay": "^3.4.2",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-popperjs": "^2.3.0",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.5.2",
+    "vue-session": "^1.0.0",
+    "vue-socket.io": "^2.1.1",
+    "vue-socket.io-extended": "^4.2.0",
+    "vue-toasted": "^1.1.28",
+    "vue2-dropzone": "^3.6.0",
+    "vue2-timepicker": "^1.1.6",
+    "vuejs-datepicker": "^1.6.2",
+    "vuejs-dialog": "^1.4.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@voerro/vue-tagsinput": "^2.7.1",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "expose-loader": "^0.7.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

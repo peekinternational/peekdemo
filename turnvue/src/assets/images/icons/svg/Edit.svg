@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.667" height="16" viewBox="0 0 17.667 16">
+  <g id="Edit" transform="translate(-1.5 -4.5)">
+    <circle id="layer2" cx="0.278" cy="0.278" r="0.278" transform="translate(3.389 6.389)" fill="none" stroke="#2c3550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="layer2-2" data-name="layer2" cx="0.278" cy="0.278" r="0.278" transform="translate(5.333 6.389)" fill="none" stroke="#2c3550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="layer2-3" data-name="layer2" cx="0.278" cy="0.278" r="0.278" transform="translate(7.278 6.389)" fill="none" stroke="#2c3550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="layer2-4" data-name="layer2" d="M2,5H16.444V8.333H2Zm14.444,6.389V8.333M2,8.333v8.889h8.889" fill="none" stroke="#2c3550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="layer1" d="M36.8,27l-5.778,5.75L29.8,35.889l3.167-1.194,5.778-5.75Zm-5.778,5.75,1.944,1.944" transform="translate(-20.078 -15.889)" fill="none" stroke="#2c3550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

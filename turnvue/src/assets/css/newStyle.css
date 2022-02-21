@@ -1,0 +1,2124 @@
+span {
+    font-family: "Open Sans",sans-serif !important;
+
+}
+:focus {
+    outline-color: rgb(28 157 234 / 0%) !important;
+    text-decoration: none !important;
+}
+h5{
+    text-transform:capitalize;
+}
+.panel-title {
+  position: relative;
+}
+.chatIcons{
+    height: auto;
+    border-radius: 0px !important;
+    width: 19px !important;
+    padding-right: 5px;
+}
+  #noteData2 .form-group input {
+    height: 45px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none !important;
+}
+  #noteData2 .form-group input:focus {
+    height: 45px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none;
+    outline: 0;
+}
+.panel-title::after {
+  content: "\f107";
+  color: #333;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  font-family: "FontAwesome";
+  font-size: 16px;
+}
+.noteprofile{
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+}
+.panel-title[aria-expanded="true"]::after {
+  content: "\f106";
+}
+.vidControls img:nth-child(1) {
+  padding-bottom: 12px;
+}
+.participant.col-md-12.sender-video{
+    position: absolute;
+    bottom: 0px;
+    min-width: 30%;
+    max-width: 30%;
+    z-index: 9;
+    height: auto;
+}
+.participant.col-md-12.sender-video video {
+    width: 100% !important;
+    object-fit: cover;
+    height: calc(57vh - 156px) !important;
+}
+.chatbutton {
+    position: absolute;
+    bottom: 18px;
+    right: 16px;
+    z-index: 99999;
+    background: #131519;
+    box-shadow: 0 2px 8px 4px rgb(0 0 0 / 25%), 0 0 0 1px rgb(0 0 0 / 15%);
+    padding: 19px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.recordbutton {
+    position: absolute;
+    bottom: 18px;
+    left: 2%;
+    z-index: 99999;
+    background: #131519;
+    box-shadow: 0 2px 8px 4px rgb(0 0 0 / 25%), 0 0 0 1px rgb(0 0 0 / 15%);
+    padding: 17px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.participant.col-md-12.full-video video {
+    width: 100% !important;
+    height: calc(96vh - 0px) !important;
+}
+.vidControls img:nth-child(2) {
+  padding-bottom: 12px;
+}
+.logoutDiv{
+    position: fixed;
+    z-index: 9;
+    bottom: 0px;
+    background: white;
+    padding: 8px 20px;
+    border-top: 1px #ddd9d9eb solid;
+}
+.logoutDiv span{
+    cursor: pointer;
+}
+ul.read-cont-setting {
+    background-color: #fff;
+    box-shadow: 0 0 10px #e5edf5;
+    padding: 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: left;
+    position: fixed;
+    right: 0%;
+    z-index: 1;
+    display: none;
+    transition: all .5s ease;
+}
+ul.read-cont-setting.open {
+  
+    display: block !important;
+}
+.navprofile{
+    border: 1px #BAC5E9 solid;
+    padding: 2px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+.addMeetingmodal .modal-content{
+    width: 70%!important;
+}
+
+.navprofile.online:before {
+    background-color: #3fcc35;
+}
+.navprofile.offline:before {
+    background-color: #828282;
+}
+.navprofile.busy:before, .navprofile.online:before, .navprofile.offline:before, .navprofile.unreachable:before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    right: 18px;
+    top: 0px;
+}
+
+.navlogo{
+    background: #d7dbe552;
+    padding: 12px;
+    width: 135px;
+    margin-left: 3px;
+}
+.chat-main li .chat-box .profile {
+    position: absolute;
+    left: 0;
+    border: 1px #BAC5E9 solid;
+    padding: 3px;
+    width: 57px;
+    height: 57px;
+    border-radius: 30px;
+}
+.profile img{
+    border-radius: 30px !important  ;
+    width: 49px;
+    max-height: 49px;
+}
+.profile.busy:before, .profile.online:before, .profile.offline:before, .profile.unreachable:before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    right: 8px;
+    top: 5px;
+}
+.mainpanleProfile{
+    
+    border: 1px solid rgb(186, 197, 233);
+    width: 71px;
+    height: 71px;
+    padding: 3px;
+    border-radius: 32px;
+
+}
+
+.mainpanleProfile img{
+    
+  width: 63px !important;
+
+}
+.sidebar-top span{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sidebar-top span img{
+    border-radius: 0px;
+}
+.sidebar-top li{
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.records{
+    padding: 10px;
+    margin-top: 20px !important;
+    background: #F2FAFF;
+    margin-left: 0 !important;
+    margin-bottom: 10px !important;
+    width: 100%;
+    text-align: left !important;
+}
+.minutes{
+    padding: 10px;
+    background: #F3F2FC;
+     margin-left: 0 !important;
+    margin-bottom: 10px !important;
+    width: 100%;
+    text-align: left !important;
+}
+.chitchat-main .call-content, .chitchat-main .contact-content {
+    position: absolute;
+    padding: 45px;
+    min-height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    top: 0;
+    background-color: #eff7fe;
+    z-index: 2;
+    transition: all .3s ease;
+    width: 100%;
+}
+.todayDate{
+    font-weight: 500 !important;
+    color: #222222 !important;
+    font-size: 12px !important;
+}
+.search2>div {
+    background-color: transparent !important;
+    width: 80% !important;
+    height: 39px !important;
+    border: 2px #e4e9f863 solid !important;
+}
+.chat-main li.active .details h6 {
+    font-weight: 600;
+    color: #888888;
+    letter-spacing: 1px;
+}
+.chat-main li.active .details h5 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    color: #6F66FF;
+    letter-spacing: 1px;
+}
+.theme-tab .nav-tabs .nav-item .nav-link {
+    font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 700;
+    padding: 9px 22px ;
+    min-height: 30px ;
+    border-radius: 10px ;
+    min-width: 140px ;
+    background-color: transparent !important;
+    border: none !important;
+    color: #223645 !important;
+    text-align: center;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+.theme-tab .nav-tabs .nav-item .nav-link.active {
+    background-color: transparent !important;
+    color: #1c9dea !important;
+    transition: all 0.3s ease;
+}
+/*.theme-tab .nav-tabs .nav-item .nav-link.active:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+  left: 18px;
+  border: 10px solid transparent;
+  border-right-color: #DA362A;
+}*/
+
+.group-main li.active {
+    background-color: #bac5e93d;
+    border-left: 4px solid #6C63F9;
+}
+.group-main li {
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    width: 100%;
+    height: 80px;
+}
+
+.group-main .group-box .profile {
+    
+    position: absolute;
+    left: -9px;
+    border: 1px #BAC5E9 solid;
+    padding: 3px;
+    width: 58px;
+    height: 58px;
+    border-radius: 30px;
+}
+.media-left.mr-3{
+    border: 1px #BAC5E9 solid;  
+    padding: 2px;
+    width: 66px;
+    height: 66px !important;
+    border-radius: 30px;
+}
+.profile.mr-4{
+    border: 1px #BAC5E9 solid;
+    padding: 3px;
+    width: 56px;
+    height: 56px !important;
+    border-radius: 30px;
+}
+.profile.mr-4 img{
+    border-radius: 30px !important  ;
+    width: 48px !important;
+    min-height: 32px;
+}
+.msg-setting-main {
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: all .5s ease;
+    display: flex !important;
+}
+/*.msg-setting-main .msg-dropdown-main .msg-dropdown {
+    background-color: #fff;
+    border: 2px solid #eff1f2;
+    padding: 15px;
+    border-radius: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+    text-align: left;
+    display: none;
+    transition: all 0.5s ease;
+}*/
+.msg-setting-main .msg-dropdown-main .msg-setting {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px !important;
+    border: 1px #C5CEEB solid;
+}
+.menu-trigger {
+    cursor: pointer;
+    font-size: 11px;
+}
+.chat-friend-toggle .chat-frind-content {
+    position: absolute;
+    top: 69px;
+    right: -40px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: left;
+    display: none;
+    text-transform: capitalize;
+    /* left: -46px; */
+}
+.chat-friend-toggle .chat-frind-content ul li {
+    margin-bottom: 0px;
+    padding-left: 40px !important;
+    position: relative;
+    display: inline-flex !important;
+    align-items: center;
+    height: 30px;
+}
+.search2 .input-group .input-group-append:last-child span {
+    border-left: 1px solid #e5e8e9a6;
+    padding-bottom: 4px;
+}
+
+.add-popup .modal-header {
+    border-bottom-color: transparent !important;
+    background-color: transparent !important;
+}
+.add-popup .modal-footer, .add-popup .modal-header {
+    padding: 10px 30px;
+}
+.add-popup .close {
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border-radius: 0 0 0 90px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 1;
+}
+.add-popup .close span {
+    color: #333;
+    font-size: 16px;
+    position: absolute;
+    top: -11px;
+    right: -9px;
+    background: #fff;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    padding-left: 1px;
+}
+.add-popup .modal-footer .modal-title, .add-popup .modal-header .modal-title {
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: calc(16px + 12*(100vw - 320px)/1600);
+    font-size: 15px;
+}
+.btn-group-sm>.btn, .btn.btn-sm {
+    padding: 7px 15px;
+}
+.btn {
+    font-size: calc(14px + 2*(100vw - 320px)/1600);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.add-popup .modal-body {
+    padding: 30px;
+    border-top: 1px #bac5e942 solid;
+}
+.default-form .form-group input {
+    height: 45px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px #E5EAF9 solid;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+.add-popup .default-form .form-group .form-control {
+    padding: 15px 25px;
+    margin-bottom: 9px;
+}
+.add-popup .modal-body {
+    padding: 13px;
+    border-top: 1px #bac5e942 solid;
+    padding-top: 7px;
+}
+.modelsearch{
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    border-top: 1px #bac5e942 solid;
+    border-bottom: 1px #bac5e942 solid;
+}
+.default-form .showmembers{
+    -webkit-appearance: none;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 1;
+    background-color: transparent;
+    height: 325px;
+    /* border-radius: 15px; */
+    color: #647589;
+    border: none;
+    background: none;
+    margin-bottom: 27px;
+    overflow-x: hidden;
+}
+.add-popup .modal-footer, .add-popup .modal-header {
+    padding: 10px 14px;
+}
+ul.chat-cont-setting.open {
+    display: grid;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: #6F66FF !important;
+    border-color: #6F66FF !important;
+    transition: all 0.3s ease;
+    outline: none !important;
+    color: #fff;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #6F66FF;
+}
+.modal-backdrop.show {
+    opacity: .6;
+}
+.call-log-main li .call-box .profile {
+    position: absolute;
+    left: 0;
+    border: 1px #BAC5E9 solid;
+    padding: 3px;
+    width: 57px;
+    height: 57px;
+    border-radius: 30px;
+}
+.group-box .profile img {
+    border-radius: 30px !important;
+    width: 50px;
+}
+.chitchat-right-sidebar .contact-profile {
+    padding: 20px;
+    padding-left: 0px !important;
+}
+.close-profile{
+   position: fixed;
+    left: -32px !important;
+    top: 6px !important;
+    height: 21px !important;
+    width: 22px !important;
+    font-size: 13px;
+    color: black !important;
+    background-color: white !important;
+    border-radius: 100% !important;
+    padding: 3px;
+}
+.chitchat-right-sidebar .contact-profile .details .contact-top {
+    height: 130px;
+    width: 130px;
+    box-shadow: 0 0 0 0 !important;
+    margin: 0 auto;
+    background-image: none !important;
+    padding: 4px;
+    border: 1px solid rgb(186, 197, 233);
+    border-radius: 55px;
+}
+.chitchat-right-sidebar .contact-profile .details .contact-top img {
+   display: block !important;
+    width: 120px;
+    height: 120px;
+    border-radius: 50% !important;
+}
+
+.contact-top.profile.busy:before, .contact-top.profile.online:before, .contact-top.profile.offline:before, .contact-top.profile.unreachable:before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    right: 20px;
+    top: 11px;
+}
+.chitchat-right-sidebar .document, .chitchat-right-sidebar .media-gallery, .chitchat-right-sidebar .status {
+    border-top: 1px solid #eff1f2;
+    padding: 3px 15px;
+}
+.collapse-block .block-title {
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.chitchat-container .chitchat-right-sidebar {
+    min-width: 330px !important;
+    width: 330px !important;
+}
+.groupUsers .usersprof
+{
+    display: flex;
+    justify-content: center;
+}
+.groupUsers .usersprof .profile {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 100%;
+    border: 1px solid #BAC5E9;
+    margin-bottom: 8px;
+    padding: 2px;
+    background-image: none !important;
+}
+.groupUsers .usersprof .profile img {
+    display: block !important;
+    width: 24px !important;
+    min-height: 24px;
+    max-height: 24px;
+}
+.groupUsers .usersprof .profile+.profile {
+    margin-left: -7px;
+}
+.usersCount{
+    background: black;
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    color: white;
+    line-height: 23px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.addGroups{
+    border-style: dotted;
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    border-color: #BAC5E9;
+    margin-left: 13px;
+    margin-top: -4px;
+    border-width: 2.4px;
+    cursor: pointer;
+}
+.viddiolog.modal.fade .modal-dialog {
+    max-width: 90%;
+}
+.viddiolog .videocall.call-modal{
+    min-height: 96.5vh !important;
+    background: #6F66FF;
+    background-image: none !important;
+}
+
+.viddiolog .groupcall.call-modal{
+    min-height: 96.5vh !important;
+    background: #6F66FF;
+    background-image: none !important;
+}
+#basicUsage {
+    font-size: 16px;
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    width: 100px;
+}
+.groupcall.call-modal .center-con{
+    position: absolute;
+    bottom: 30px;
+}
+.videocall.call-modal .center-con, .videocallhang.call-modal .center-con {
+    position: absolute;
+    bottom: 30px;
+    width: 30%;
+    right: 0;
+}
+.videocall.call-modal .videocall-details, .videocallhang.call-modal .videocall-details {
+    position: absolute;
+    top: 0px;
+    padding: 20px;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
+
+
+.videocall.call-modal .small-image, .videocallhang.call-modal .small-image {
+    width: 201px !important;
+    height: 185px !important;
+    position: absolute;
+    left: 40px;
+    bottom: 5%;
+}
+.groupCallOptionsb4{
+    width: 100%;
+}
+.groupCallOptionsafter{
+    width: 70% !important;
+}
+.groupcall.call-modal .videocall-details, .videocallhang.call-modal .videocall-details {
+    position: absolute;
+    top: 0px;
+    padding: 20px;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
+/*.groupcall.call-modal .small-image, .videocallhang.call-modal .small-image {
+    width: 201px !important;
+    height: 185px !important;
+    position: absolute;
+    left: 40px;
+    bottom: 5%;
+}*/
+ul.call-cont-setting {
+    background-color: #fff;
+    box-shadow: 0 0 10px #e5edf5;
+    padding: 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: right;
+    position: fixed;
+    left: 1%;
+    bottom: 65%;
+    z-index: 1;
+    display: none;
+    transition: all 0.5s ease;
+}
+ul.call-cont-setting li {
+    margin-bottom: 5px !important;
+    
+}
+ul.call-cont-setting li a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: left
+}
+ul.call-cont-setting li a span {
+    padding: 5px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-right: 0px;
+    font-size: 12px;
+}
+.audiocall1.call-modal ul li+li, .audiocall2.call-modal ul li+li, .videocall.call-modal ul li+li, .groupcall.call-modal ul li+li, .videocallhang.call-modal ul li+li, .conferencecall.call-modal ul li+li {
+    margin-left:12px;
+}
+.calloption-close {
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border-radius: 0 0 0 90px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 1;
+}
+.calloption-close span {
+    color: #333;
+    font-size: 14px;
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    background: #fff;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+    line-height: 17px;
+    padding-left: 0px;
+}
+.option-btn {
+    border: 1px solid white !important;
+    border-radius: 3px !important;
+    color: white !important;
+    height: 28px !important;
+    width: 28px !important;
+}
+.chitchat-main .o2omessageschat {
+    padding: 0px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  /*  height: 635px;*/
+    min-height: calc(100vh - 95px);
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-blend-mode: overlay;
+    top: 0;
+    background-color: #F3F6FF;
+    display: none;
+    -webkit-animation: fadeInLeft 300ms ease-in-out;
+    animation: fadeInLeft 300ms ease-in-out;
+}
+.chat-main li, .call-log-main li, .contact-log-main li {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.chitchat-container .chitchat-left-sidebar .recent-default .chat>.theme-tab.chat-tabs .nav-tabs {
+    padding-bottom: 0px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.msg-chat-modal .chat-main, .msg-chat-modal .call-log-main {
+    height: 425px;
+    overflow: auto;
+}
+.chitchat-container .chitchat-left-sidebar .recent-default .recent {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    padding-top: 18px;
+    z-index: 1;
+}
+.chitchat-container .chitchat-left-sidebar .recent-default .recent .theme-title {
+    padding: 5px 10px;
+}
+.chat-main li .chat-box .date-status .status {
+    padding-top: 9px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.chitchat-container .main-nav .logo-warpper {
+    text-align: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eff1f2;
+}
+#myTab li{
+    margin: 0px;
+    width: 31%;
+}
+.chitchat-container .chitchat-left-sidebar .recent-default .chat>.theme-tab .nav-tabs .nav-item .nav-link {
+    min-width: 90px;
+}
+.chitchat-main .messages .contact-details {
+    padding: 8px 12px;
+    background-color: #fff;
+    box-shadow: 0 -55px 0px 0px #F3F6FF;
+    position: fixed;
+    width: calc(100vw - 500px);
+    z-index: 999;
+    transition: all 0.9s;
+    border-radius: 5px;
+}
+.theme-tab .nav-tabs .nav-item .nav-link {
+    font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 500;
+    padding: 9px 22px;
+    min-height: 30px;
+    border-radius: 10px;
+    min-width: 140px;
+    background-color: transparent !important;
+    border: none !important;
+    color: #223645 !important;
+    text-align: center;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+.audiocall1.call-modal, .audiocall2.call-modal, .videocall.call-modal, .groupcall.call-modal, .videocallhang.call-modal, .conferencecall.call-modal {
+    min-height: 655px;
+    background-image: none !important;
+    background: #6F66FF;
+}
+.audiocall1.call-modal .title2, .audiocall2.call-modal .title2, .videocall.call-modal .title2, .groupcall.call-modal .title2, .videocallhang.call-modal .title2, .conferencecall.call-modal .title2 {
+    margin-bottom: 100px;
+}
+.incomingName{
+    border: 1px #BAC5E9 solid;
+    padding: 7px;
+    border-radius: 46px;
+    width: 120px !important;
+    height: 120px !important;
+    display: inline-flex !important;
+    background-image: none !important;
+}
+.incomingName img{
+   width: 105px;
+    display: block !important;
+    border-radius: 63px !important;
+    max-height: 105px !important;
+}
+
+.participant.col-md-12 video {
+    width: 65%!important;
+    -o-object-fit: fill;
+    object-fit: cover;
+    height: calc(57vh - 76px);
+}
+
+.participant.col-md-6 video {
+    width: 100%!important;
+    -o-object-fit: fill;
+    object-fit: cover;
+    height: calc(57vh - 76px);
+}
+.participant.col-md-4 video {
+    width: 100%!important;
+    -o-object-fit: fill;
+    object-fit: cover;
+    height: calc(56vh - 77px);
+}
+.participantscreen.col-md-12 video {
+    width: 100%!important;
+    -o-object-fit: fill;
+    object-fit: cover;
+    height: calc(57vh - 76px);
+}
+.participant.single.col-md-12 video {
+   width: 100%!important;
+    -o-object-fit: fill;
+    object-fit: cover;
+    height: calc(100vh - 60px);
+    margin-top: 11px;
+}
+
+.participant.single.col-md-12 .vidControls{
+    position: absolute;
+    bottom: 200px;
+    padding-right: 45px;
+    z-index: 99999;
+    right: 0;
+
+}
+.participant.single.col-md-12 .participantName {
+    position: absolute;
+    bottom: 0;
+    padding-left: 28px;
+    color: #fff;
+    font-size: 25px;
+}
+.participant.col-md-12 .vidControls{
+    position: absolute;
+    bottom: 10px;
+    padding-right: 255px;
+    z-index: 99999;
+    right: 0;
+}
+.participant.col-md-6 .vidControls{
+   position: absolute;
+    bottom: 12px;
+    left: 22px;
+}
+.participant.col-md-4 .vidControls{
+   position: absolute;
+    bottom: 16px;
+    left: 28px;
+}
+.participant.col-md-12 .participantName{
+    position: absolute;
+    bottom: 0;
+    padding-left: 250px;
+    color: white;
+    font-size: 25px;
+}
+.participant.col-md-6 .participantName{
+    position: absolute;
+    bottom: 0;
+    padding-left: 170px;
+    color: white;
+    font-size: 17px;
+}
+.participant.col-md-4 .participantName{
+    position: absolute;
+    bottom: 0;
+    padding-left: 150px;
+    color: white;
+    font-size: 17px;
+}
+
+/*.participant.col-md-6{
+   width: 78%!important;
+    height: 100%;
+    object-fit: cover;
+}*/
+
+/*.participant.col-md-6 .vidControls{
+  position: absolute;
+    bottom: 12px;
+    z-index: 99999;
+    right: 0;
+    padding-right: 86px;
+}
+.participant.col-md-6 .participantName{
+   position: absolute;
+    bottom: 0;
+    padding-left: 70px;
+    color: #fff;
+    font-size: 20px;
+}*/
+
+.participant{
+	text-align:center;
+    padding: 0px;
+}
+
+.participant video{
+	width: 100% !important;
+}
+.displayclass{
+    display: inline-block !important;
+}
+
+.profile.offline.menu-trigger{
+    background-image: none !important;
+}
+.profile.online.menu-trigger{
+    background-image: none !important;
+}
+.profile.offline.menu-trigger img{
+    display:  block !important;
+}
+.profile.online.menu-trigger img{
+    display: block !important;
+}
+div span.bg-size{
+    background-image: none !important;
+}
+div span.bg-size img{
+    display: block !important;
+}
+.theme-tab .nav-tabs .nav-item .buttoneffect.active {
+    background-color: transparent !important;
+    color: #1c9dea !important;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+.todo-main-content{
+    margin-top: 15px;
+    margin-bottom: 11px;
+    padding-bottom: 96px;
+    border-bottom: 1px solid #eff1f2;
+}
+.theme-tab .nav-tabs .nav-item .buttoneffect {
+    background-color: transparent !important;
+    color: #223645 !important;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+ul.sidebar-top li.active {
+    border-radius: 2px;
+    background-color: gainsboro;
+    margin: 0 3px 0px 3px;
+    width: 100%;
+}
+
+ul.sidebar-top li.active .activecss {
+    padding-left: 0px !important;
+    padding-right: 13px;
+    
+}
+ul.sidebar-top li.active .activelive {
+    padding-left: 0px !important;
+    padding-right: 49px;
+    
+}
+ul.sidebar-top li.active .activetodo {
+    padding-left: 0px !important;
+    padding-right: 35px;
+}
+ul.sidebar-top li.active .activefile {
+    padding-left: 18px !important;
+    padding-right: 10px;
+    
+}
+ul.sidebar-top li.active .activefile1 {
+    float: left;
+    padding-left: 7px;    
+}
+ul.sidebar-top li.active .activecss1 {
+    float: left;
+    padding-left: 5px;
+    
+}
+ul.sidebar-top li:before {
+  content: '';
+}
+
+
+ul.sidebar-top li.active:before {
+    font-family: FontAwesome;
+    content: '\f105';
+    margin-right: 5px;
+    position: absolute;
+    right: 5px;
+    top: 11px;
+}
+
+.portfolio-section .isotopeSelector img{
+    width: 100%;
+    height: auto;
+    max-height: 80px;
+
+}
+.meetingRow{
+    background-color: white;
+    margin-top: 1px;
+    padding: 6px 15px 6px 15px;
+}
+.meetingRow .col-md-2:before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    right: 0;
+    top:6px;
+    background-color: #e0e3e7;
+    height:70%;
+}
+.meetingDetailMB{
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    right: 0;
+    max-width: 100% !important;
+}
+.meetingDetailMB .mb{
+    background-color: #2c3550;
+}
+.meetingDetailMB .row .col-md-1{
+        margin-top: 17px;
+}
+.addMeeting2{
+    border-radius: 19px;margin-top: 3px;padding: 12px 27px;background-color: #2c3550;
+}
+.addMeeting{
+    border-radius: 19px;margin-top: 3px;padding: 12px 27px;background-color: #2c3550;float: right;
+}
+.theme-tab.meeting-tabs>.nav-tabs>.nav-item .nav-link.active {
+    color: #fff !important;
+    background-color: #5bbdf4 !important;
+    transition: all 0.3s ease;
+    box-shadow: -1px 10px 16px -10px #6F66FF;
+}
+#contactTab{
+width: 65%;
+}
+#contactTab.nav-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#contactTab.nav-tabs {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.noteP{
+    height: 150px;
+    overflow: auto;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.noteP::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.noteP {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.noteUser .usersprof
+{
+    display: flex;
+}
+.noteUser .usersprof .profile {
+    max-width: 28px;
+    max-height: 28px;
+    border-radius: 100%;
+    border: 1px solid #bac5e9;
+    margin-bottom: 0px;
+    padding: 1px;
+    background-image: none!important;
+}
+.noteUser .usersprof .profile img {
+    display: block !important;
+    width: 24px !important;
+    max-height: 24px;
+}
+.noteUser .usersprof .profile span {
+    display: block !important;
+    width: 24px !important;
+    max-height: 24px;
+}
+.noteUser .usersprof .profile+.profile {
+    margin-left: -7px;
+}
+
+.meetingUser .usersprof
+{
+    display: flex;
+}
+.meetingUser .usersprof .profile {
+    max-width: 28px;
+    max-height: 28px;
+    border-radius: 100%;
+    border: 1px solid #bac5e9;
+    margin-bottom: 0px;
+    padding: 1px;
+    background-image: none!important;
+}
+.meetingUser .usersprof .profile img {
+    display: block !important;
+    width: 24px !important;
+        max-height: 24px;
+}
+.meetingUser .usersprof .profile+.profile {
+    margin-left: -7px;
+}
+#upmeeting .row.active{
+        background-color: #2c3550;
+}
+
+#completemeeting .row.active{
+        background-color: #2c3550;
+}
+
+#allroom .row.active{
+        background-color: #2c3550;
+}
+.meetingContentRow{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: 1px solid #eaeef8;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.meetingContentRow .col-md-6 p:first-child {
+  margin-bottom: 4px;
+  margin-top: 7px;
+}
+.roomContentRow{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: 1px solid #eaeef8;
+     padding-top: 12px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.roomContentRow .col-md-6 p:first-child {
+  margin-bottom: 4px;
+  margin-top: 7px;
+}
+.meetingContent{
+    height: calc(60vh - 25px);
+    min-height: calc(90vh - 80px);
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#upmeeting .row.active p{
+        color: #f1f1f3;
+}
+#upmeeting .row.active h6{
+        color: #f1f1f3;
+}
+#completemeeting .row.active p{
+        color: #f1f1f3;
+}
+#completemeeting .row.active h6{
+        color: #f1f1f3;
+}
+
+#allroom .row.active p{
+        color: #f1f1f3;
+}
+#allroom .row.active h6{
+        color: #f1f1f3;
+}
+
+.col-md-4.meetingUser{
+        border-left: 1px solid rgb(234, 238, 248);
+    height: 50px;
+    margin-top: 4px;
+}
+.col-md-6.meetingUser {
+    border-left: 1px solid rgb(234, 238, 248);
+    height: 50px;
+    margin-top: 4px;
+}
+
+.col-md-5 p:first-child {
+  margin-bottom: 4px;
+  margin-top: 7px;
+}
+.meetingTopic{
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    margin-bottom: 11px;
+}
+.meetingTopicp:first-child {
+  margin-bottom: 4px;
+  margin-top: 7px;
+}
+.switch {
+  position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 16px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2c3550;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.addMeetingPar {
+    border-style: dotted;
+    width: 30px;
+    height: 30px;
+    border-radius: 13px;
+    border-color: #BAC5E9;
+    margin-left: 13px;
+    margin-top: 0px;
+    border-width: 2.4px;
+    cursor: pointer;
+    background-color: white;
+}
+.default-form .form-group textarea {
+       border-radius: 3px;
+    background-color: transparent;
+    border: 1px #E5EAF9 solid;
+}
+#addMeetingmodal .modal-dialog,#addRoommodal .modal-dialog {
+    max-width: 50%;
+    margin: 74px auto 0px auto;
+}
+.custom_file {
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+#addMeetingmodal .default-form .form-group .form-control,#addRoommodal  .default-form .form-group .form-control {
+    padding: 15px 10px;
+    margin-bottom: 9px;
+}
+.vue__time-picker input.display-time {
+    border: 1px solid #e5eaf9;
+    width: 11.5em !important;
+    height: 3.6em !important;
+    padding: .3em .5em;
+    font-size: 1em;
+}
+.vue__time-picker {
+    display: block !important;
+    position: relative;
+    font-size: 1em;
+    width: 10em;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+.vue__time-picker .dropdown {
+    
+    width: 13em !important;
+    height: 10em;
+ 
+}
+.vue__time-picker .dropdown .select-list {
+    width: 13em !important;
+    height: 10em;
+}
+.vue-input-tag-wrapper {
+    background-color: #fff;
+    border: 1px solid #e5eaf9 !important;
+    overflow: hidden;
+    min-height: 45px;
+    padding-left: 136px !important;
+    padding-top: 4px;
+    cursor: text;
+    text-align: left;
+    -webkit-appearance: textfield;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.meetingContentRow .col-2 .profile{
+    width: 62px !important;
+    height: 62px !important;
+    border: 1px solid #BAC5E9 !important;
+    padding: 3px !important;
+    border-radius: 25px !important;
+}
+.meetingContentRow .col-md-3 .profile{
+    width: 62px !important;
+    height: 62px !important;
+    border: 1px solid #BAC5E9 !important;
+    padding: 3px !important;
+    border-radius: 25px !important;
+}
+.meetingContentRow .col-2 .profile img{
+    width: 54px !important;
+}
+.meetingJoinRow .col-md-1{
+    text-align: center;
+    border-right: 1px solid #BAC5E9;
+    padding-right: 0px;
+    height: 41px;
+    margin-top: 8px;
+
+}
+.meetingJoinRow .col-md-1 .profile{
+    width: 62px !important;
+    height: 62px !important;
+    border: 1px solid #BAC5E9 !important;
+    padding: 3px !important;
+    border-radius: 25px !important;
+}
+.meetingJoinRow .col-md-1 .profile img{
+    width: 54px !important;
+}
+.col-{
+    width: 62px!important;
+    height: 62px!important;
+    border: 1px solid #bac5e9!important;
+    padding: 3px!important;
+    border-radius: 25px!important;
+}
+.meetingOptions .col-md-1 {
+    cursor: pointer;
+}
+.meetingOptions .col-md-1 span{
+    padding-left: 5px;
+}
+button{
+    cursor: pointer;
+}
+.group-box .profile span{
+    width: 52px;
+    padding: 14px;
+    background-color: #2c3550;
+    border-radius: 24px;
+    font-size: 16px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+}
+
+.meetingContentRow .col-2 .profile span{
+    width: 55px;
+    background-color: #2c3550;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+}
+
+.meetingContentRow.active .col-2 .profile span{
+    width: 55px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    color: #647589;
+}
+
+.meetingContentRow .col-md-3 .profile span{
+    width: 55px;
+    background-color: #2c3550;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+}
+.meetingContentRow.active .col-md-3 .profile span{
+    width: 55px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    color: #647589;
+}
+
+.media-left .profile span{
+     width: 55px;
+    background-color: #2c3550;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+}
+.meetingRow .col- .profile span{
+    width: 55px;
+    background-color: #2c3550;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    margin-right: -50%;
+    text-transform: uppercase;
+}
+.col-md-1 .profile span{
+    width: 55px;
+    background-color: #2c3550;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    margin-right: -50%;
+    text-transform: uppercase;
+}
+.profile{
+   text-align: center;
+}
+.chitchat-main .message-input textarea {
+    width: calc(100% - 232px);
+    border: 0;
+    font-size: 16px;
+    color: #647589;
+    font-family: Montserrat,sans-serif;
+    margin-right: 12px;
+}
+.user.profile span {
+    width: 52px;
+    padding: 14px;
+    background-color: #2c3550;
+    border-radius: 24px;
+    font-size: 16px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    z-index: -9;
+}
+.user2.profile span {
+    width: 60px;
+    padding: 17px;
+    background-color: #2c3550;
+    border-radius: 28px;
+    font-size: 16px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    z-index: -9;
+}
+.userprofile span {
+    width: 50px;
+    padding: 13px;
+    background-color: #2c3550;
+    border-radius: 24px;
+    font-size: 16px!important;
+    position: absolute;
+    top: 50.5%;
+    left: 49.5%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    
+}
+
+.seetingUserpro{
+    text-align: center;
+    border: 1px solid;
+    width: 140px;
+    max-height: 140px;
+    padding: 4px;
+    border-radius: 55px;
+    position: relative;
+    display: inline-block;
+    top: 25px;
+}
+.seetingUserpro img{
+    border-radius: 50px !important;
+    width: 130px;
+    min-height: 130px;
+}
+ul.groupmembers.chat-main.active {
+    background: #a9a3ff59;
+}
+.call-log-main li, .chat-main li, .contact-log-main li{
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 96%;
+}
+.media .profile.mr-4 img {
+    border-radius: 30px!important;
+    width: 48px!important;
+    min-height: 48px;
+    }
+
+    ul.status-cont-setting {
+    background-color: #fff;
+    box-shadow: 0 0 10px #e5edf5;
+    padding: 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: left;
+    position: fixed;
+    left: 2%;
+    bottom: 59%;
+    z-index: 1;
+    display: none;
+    transition: all .5s ease;
+}
+ul.status-cont-setting.open {
+    display: grid;
+}
+
+.call-log-main li:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #6f66ff2e !important;
+    transition: all .3s ease;
+}
+
+.call-log-main li.active:before {
+    border-left: 4px solid #6f66ff !important;
+    width: 100%;
+    transition: all .3s ease;
+}
+.statusClass{
+    width: 0px;
+    height: 17px;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+.hrline{
+    margin-top: 0;
+    margin-bottom: 0px;
+    border: 1px solid #eff1f2;
+    width: 75%;
+    margin-right: 0px;
+}
+.contactPerson{
+    background-color: #fff;
+    border: 1px solid #e5eaf9!important;
+    overflow: hidden;
+    min-height: 45px;
+    padding-left: 150px!important;
+    padding-top: 7px;
+    cursor: text;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+.msg-setting-main .msg-dropdown-main .msg-dropdown {
+    background-color: #fff;
+    border: 2px solid #eff1f2;
+    padding: 10px;
+    border-radius: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 195px;
+    z-index: 1;
+    text-align: left;
+    display: none;
+    transition: all .5s ease;
+}
+.msg-dropdown a{
+	font-size: 11px;
+}
+.msg-setting-main .msg-dropdown-main .msg-dropdown ul li a svg {
+    font-size: 12px;
+    display: inline;
+    margin-right: 15px;
+}
+.chitchat-container .chitchat-left-sidebar .recent-default .recent~.chat {
+    margin-top: 242px;
+    height: calc(100vh - 85px);
+    min-height: calc(100vh - 117px);
+}
+.showAddmeeting{
+    padding: 4px 7px;
+    float: right;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #2c3550 !important;
+    border-radius: 20px;
+    color: #2c3550 !important;
+}
+.hideRemovemeeting{
+    padding: 4px 7px;
+    float: right;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #2c3550 !important;
+    border-radius: 20px;
+    color: #2c3550 !important;
+}
+.showAddmeeting.active, .showAddmeeting:active, .showAddmeeting:focus, .showAddmeeting:hover {
+    background-color: transparent!important;
+    border-color: #2c3550!important;
+    border: 1px solid #2c3550 !important;
+    transition: all .3s ease;
+    outline: none!important;
+    color: #fff;
+}
+.hideRemovemeeting.active, .hideRemovemeeting:active, .hideRemovemeeting:focus, .hideRemovemeeting:hover {
+    background-color: transparent!important;
+    border-color: #2c3550!important;
+    transition: all .3s ease;
+    border: 1px solid #2c3550 !important;
+    outline: none!important;
+    color: #fff;
+}
+.collapse-block h2{
+        position: relative !important;
+        transition: all .3s ease !important;
+        cursor: pointer !important;
+        margin-top: 12px !important;
+        font-size: 16px !important;
+        font-weight: 800 !important;
+        color: #223645 !important;
+}
+/* Room CSS */
+#addRoommodal .modal-dialog{
+    max-width: 50%;
+    width: auto;
+    /*min-width: 430px;*/
+    margin: 74px auto 0px auto;
+}
+#addRoommodal  .default-form .form-group .form-control{
+    padding: 15px 10px;
+    margin-bottom: 9px;
+}
+.room-tabs li{
+    border: 1px solid #ddd;
+    padding: 4px;
+    border-radius: 5px;
+}
+.room-tabs li:not(:last-child){
+  margin: 0 10px 0 0;
+}
+.room-tabs li:last-child{
+  margin: 0;
+}
+.room-tabs li a{
+    color: #aca9ef !important;
+}
+.room-tabs li a.active{
+    color: #223645 !important;
+}
+.weekDays-selector input {
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 3px;
+  background: #fff;
+  color: #313131;
+  border: 1px solid #b9b8b8;
+  height: 40px;
+  width: 34px;
+  margin-right: 5px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: #a8a3ff;
+  color: #fff;
+  border: 1px solid #b9b8b8;
+}
+.room-main-tabs .nav-item .nav-link{
+    padding: 0 10px !important;
+}
+#roomChat .chitchat-main{
+    height: 90vh;
+    max-height: 90vh;
+}
+#roomChat .chitchat-main .messages {
+    padding: 10px 10px 0 0px;
+    /*padding: 40px 10px 0 10px;*/
+    height: calc(88vh - 95px);
+    min-height: calc(82vh - 95px);
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-blend-mode: overlay;
+    top: 0;
+    background-color: #f3f6ff;
+    display: block;
+}
+#roomChat .chitchat-main .messages .contact-details {
+    box-shadow: 0 0px 0 0 #f3f6ff;
+}
+#roomChat .chitchat-main.small-sidebar .messages .contact-details {
+    width: calc(100vw - 43%);
+}
+#roomChat .chitchat-main .messages .contact-details .left.media .media-body:before{
+    width: 0px;
+}
+.bg-white{
+    background-color: white;
+}
+#mainRoom .row.mb .col-md-1 .profile,#allroom .roomContentRow .col-2 .profile{
+    width: 62px!important;
+    height: 62px!important;
+    border: 1px solid #bac5e9!important;
+    padding: 3px!important;
+    border-radius: 25px!important;
+}
+#mainRoom .row.mb .col-md-1 .profile span{
+    top: 50%;
+    left: 51%;
+}
+#allroom .roomContentRow .col-2 .profile span{
+    background-color: #2c3550;
+    width: 55px;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    color: #fff;
+}
+#allroom .roomContentRow.active .col-2 .profile span{
+    background-color: #fff;
+    color: #2c3550;
+}
+#inviteContactRoom .modal-dialog-centered .modal-content{
+    width: 60% !important;
+}
+/********** Setting Tab***********/
+.chitchat-container .chitchat-left-sidebar .settings-tab{
+    width: 100%;
+    padding: 15px 40px 40px 15px;
+}
+.chitchat-container .chitchat-left-sidebar .settings-tab .row .col-md-9{
+    background-color: #f3f6ff;
+}
+.setting-title{
+    font-size: calc(16px + 8*(100vw - 320px)/1600);
+}
+.profile-setting-list li{
+    width: 100%;
+    margin: 0;
+}
+.setting-content-block .tab-content{
+    width: 40%;
+    padding-top: 15px;
+}
+.setting-content-block .tab-content .tab-pane{
+    background-color: #fff;
+}
+.profile-setting-list .nav-link{
+    color: #223645;
+    padding: 12px;
+    font-weight: 500;
+}
+.profile-setting-list .nav-link.active{
+    color: #223645;
+    background-color: #f3f6ff;
+    padding: 12px;
+    font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+    .participant.col-md-12 video {
+    width: 100%!important;
+    -o-object-fit: fill;
+    object-fit: cover;
+    height: calc(57vh - 76px);
+}
+  .search2>div {
+    width: 87% !important;
+    height: 35px !important;
+}
+.add-popup .close span {
+    color: #333;
+    font-size: 16px;
+    position: absolute;
+    top: 1px !important;
+    right: 0px !important;
+    background: #fff;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    padding-left: 1px;
+}
+.default-form .showmembers{
+    -webkit-appearance: none;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 1;
+    background-color: transparent;
+    height: 320px !important;
+    /* border-radius: 15px; */
+    color: #647589;
+    border: none;
+    background: none;
+    margin-bottom: 0px !important;
+    overflow-x: hidden;
+}
+.col-md-1 .profile span, .meetingRow .col- .profile span {
+    width: 55px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 23px;
+    font-size: 16px;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    margin-right: -50%;
+    text-transform: uppercase;
+    color: #2c3550;
+}
+#addMeetingmodal .modal-dialog, #addRoommodal .modal-dialog {
+    max-width: 100%;
+    margin: 74px auto 0px auto;
+}
+#addMeetingmodal .modal-content,#addRoommodal .modal-content {
+        padding: 6px;
+}
+.theme-tab.tab-sm>.nav-tabs>.nav-item .nav-link {
+    border-radius: 25px;
+    padding: 0 8px;
+    font-size: calc(12px + 1*(100vw - 320px)/1600);
+    line-height: 2.2;
+    min-width: unset;
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+}
+#weeklyMeeting .vue__time-picker input.display-time{
+    width: 9.5em!important;
+}
+#monthlyMeeting .row .col-4, #weeklyMeeting .row .col-4{
+    padding-left: 0;
+}
+#monthlyMeeting .row .col-4 .vdp-datepicker input{
+    width: 6rem;
+}
+#monthlyMeeting .row .col-4 .vue__time-picker input.display-time {
+    width: 9.5em!important;
+}
+.room-main-tabs li{
+    margin: 0 !important;
+}
+#inviteContactRoom .modal-dialog-centered{
+    max-width: 100% !important;
+}
+#inviteContactRoom .modal-dialog-centered .modal-content{
+    width: 100% !important;
+}
+}
+
+#meet_stop-btn{
+    display: none;
+}
+
+@media screen and (max-width: 1300px){
+    .url_custom{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+  .modal-content {
+    width: 87% !important;
+}
+
+}
+
+.record_btn{
+    cursor: pointer;
+    background-color: #3892ef;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: 600;
+    /* width: 90%; */
+    margin-bottom: 6px;
+    text-align: center;
+    border: 0;
+    margin-right: 5px;
+}
+
+.save-record_btn{
+    cursor: pointer;
+    background-color: #67ce5a;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: 600;
+    /* width: 90%; */
+    margin-bottom: 6px;
+    text-align: center;
+    border: 0;
+    margin-right: 5px;
+}
+
+.clear-record_btn{
+    cursor: pointer;
+    background-color: rgb(235, 82, 82);
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: 600;
+    /* width: 90%; */
+    margin-bottom: 6px;
+    text-align: center;
+    border: 0;
+    margin-right: 5px;
+}
+
+.recordSaveModal{
+    display:none;
+}
+
+.record-model_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* @media screen and (max-width: 800px) { */
+/*
+.chitchat-container.mobile-menu .chitchat-left-sidebar {
+     display: block !important;
+     opacity: 1 !important;
+     -webkit-animation: fadeInRight .3s ease-in-out; 
+    width: calc(100vw - 1px) !important;
+    min-width: calc(100vw - 1px) !important;
+    -webkit-animation: fadeInRight .3s ease-in-out;
+    animation: fadeInRight .3s ease-in-out;
+    transition: all .3s ease;
+}*/
+/* } */

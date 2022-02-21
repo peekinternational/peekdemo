@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+  <g id="Share-Document" transform="translate(-1.5 -7.5)">
+    <path id="layer2" d="M16,33.333V36H2V26H4.667" transform="translate(0 -12)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer2-2" data-name="layer2" d="M24,25.333V28H10V18h2.667" transform="translate(-5.333 -6.667)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M32.667,18.667H18V8H28.667l4,4Z" transform="translate(-10.667)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1-2" data-name="layer1" d="M54,12H50V8" transform="translate(-32)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

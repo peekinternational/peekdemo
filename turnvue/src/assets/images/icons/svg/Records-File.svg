@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.6" height="18" viewBox="0 0 14.6 18">
+  <g id="Records-File" transform="translate(-7.5 -1.5)">
+    <path id="layer2" d="M1.7,0H11.9a1.7,1.7,0,0,1,1.7,1.7V15.3A1.7,1.7,0,0,1,11.9,17H1.7A1.7,1.7,0,0,1,0,15.3V1.7A1.7,1.7,0,0,1,1.7,0Z" transform="translate(8 2)" fill="none" stroke="#202020" stroke-width="1"/>
+    <path id="layer2-2" data-name="layer2" d="M8,22H21.6M8,27.667H21.6" transform="translate(0 -14.333)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M26,10.567V10h3.4v.567M26,16.233v-.567h3.4v.567M26,21.9v-.567h3.4V21.9" transform="translate(-12.9 -5.733)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

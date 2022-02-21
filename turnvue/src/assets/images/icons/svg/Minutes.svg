@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16">
+  <g id="Minutes" transform="translate(-7.5 -1.5)">
+    <path id="layer2" d="M8,2H20V17H8Zm3,0V4m-.5,0h1M14,2V4m-.5,0h1M17,2V4m-.5,0h1" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M18,20h7m-7,2.5h7M18,25h7m-7,2.5h5" transform="translate(-7.5 -13.5)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

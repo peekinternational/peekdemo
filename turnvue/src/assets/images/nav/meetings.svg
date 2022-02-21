@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.357" height="20" viewBox="0 0 21.357 20">
+  <g id="MeetingIcon" transform="translate(-1.5 -3.5)">
+    <circle id="layer2" cx="2.375" cy="2.375" r="2.375" transform="translate(9.804 13.5)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer2-2" data-name="layer2" d="M24.071,46A4.105,4.105,0,0,0,20,50.071v.679h8.143v-.679A4.105,4.105,0,0,0,24.071,46Z" transform="translate(-11.893 -27.75)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer2-3" data-name="layer2" cx="2.036" cy="2.036" r="2.036" transform="translate(16.929 4)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer2-4" data-name="layer2" d="M48.786,20.071c0-2.545-1.527-4.071-3.393-4.071S42,17.527,42,20.071Z" transform="translate(-26.429 -7.929)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="layer2-5" data-name="layer2" cx="2.036" cy="2.036" r="2.036" transform="translate(3.357 4)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer2-6" data-name="layer2" d="M8.786,20.071C8.786,17.527,7.259,16,5.393,16S2,17.527,2,20.071Z" transform="translate(0 -7.929)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="layer1" d="M12,20.786,14.714,23.5m10.857-2.714L22.857,23.5M16.071,14H21.5" transform="translate(-6.607 -6.607)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
